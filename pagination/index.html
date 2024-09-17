@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">{Zyn | rio}</h1>
+            <nav class="nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main content -->
+
+
+    <div class="wrapper">
+        <div class="paginationBtn one">
+            <a href="#" data-set="fir">First</a>
+            <a href="#" data-set="pre">Previous</a>
+        </div>
+
+        <div id="paginationNumber"></div>
+
+        <div class="paginationBtn two">
+            <a href="#" data-set="nxt">Next</a>
+            <a href="#" data-set="lst">Last</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <table id="list">
+            <!-- Table rows will be inserted here by JavaScript -->
+        </table>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Faisal Rio All rights reserved.</p>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
